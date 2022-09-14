@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "资讯详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "html-parse": "/components/html-parse/parse",
+    "pic-blur": "/components/pic-blur/index",
+    "comment": "/components/comment/index"
+  }
+}

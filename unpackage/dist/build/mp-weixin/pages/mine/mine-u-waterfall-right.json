@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mine-u-waterfall-left": "/pages/mine/mine-u-waterfall-left",
+    "mine-u-waterfall-right": "/pages/mine/mine-u-waterfall-right",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-waterfall": "/node-modules/uview-ui/components/u-waterfall/u-waterfall"
+  }
+}
