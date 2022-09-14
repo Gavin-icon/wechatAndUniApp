@@ -6,3 +6,20 @@
 3. CSS3的瀑布流布局：column-gap: 10px; column-count: 2;
 4. uni中跳转到指定位置的方法：①创建查询 let query =uni.createSelectorQuery().in(this) ②跳转query.select('#app').boundingClientRect(data => { uni.pageScrollTo({duration:0, scrollTop: data.top}) }).exec()
 5. Vue中组件传递值时数据还没渲染出来怎么办？ 创建一个变量控制组件渲染，数据获取成功后再让组件渲染传值。
+6. 多端开发中H5跨域问题：在manifest.json配置：
+"H5":{
+  "devServer": {
+    "port":8000,
+    "disableHostCheck": true,
+    "proxy": {
+      "/api": {
+        "target": "http://ts.lagou.uieee.com/api/v2",
+        "changeOrgin": true,
+        "pathRewrite": {
+          "^api": ""
+        }
+      }
+    }
+  },
+  "title": 'H5开发'
+}
